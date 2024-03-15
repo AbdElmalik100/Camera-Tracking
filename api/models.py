@@ -7,7 +7,8 @@ from django.db import models
 class ImageTacking(models.Model):
     created_at = models.DateField(auto_now_add = True)
     updated_at = models.DateField(auto_now = True)
-    image = models.ImageField(upload_to = 'images', blank=True, null=True)
+    # image = models.ImageField(upload_to = 'images', blank=True, null=True)
+    image = models.CharField(max_length = 255, blank=True, null=True)
 
 
 

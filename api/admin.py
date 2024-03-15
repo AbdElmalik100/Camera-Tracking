@@ -4,3 +4,4 @@ from .models import *
 
 
 admin.site.register(ImageTacking)
+admin.site.register(PositionTracking)
