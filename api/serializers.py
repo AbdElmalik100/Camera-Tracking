@@ -13,3 +13,8 @@ class PositionTrackingSerializer(serializers.ModelSerializer):
     class Meta:
         model = PositionTracking
         fields = '__all__'
+
+class DetectionResultsSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = DetectionResults
+        fields = '__all__'
