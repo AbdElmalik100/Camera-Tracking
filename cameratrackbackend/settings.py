@@ -82,24 +82,24 @@ WSGI_APPLICATION = 'cameratrackbackend.wsgi.application'
 
 
 # SQL Database 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'HOST': 'viaduct.proxy.rlwy.net',
-        'PASSWORD': 'c2f3ffda-bffACgA5f2ecAGgDb6DaE66',
-        'PORT': '15729',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'HOST': 'viaduct.proxy.rlwy.net',
+#         'PASSWORD': 'c2f3ffda-bffACgA5f2ecAGgDb6DaE66',
+#         'PORT': '15729',
+#     }
+# }
 
 
 
